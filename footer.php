@@ -110,3 +110,8 @@
         // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
     </script>
+<?php wp_footer(); ?>
+
+</body>
+
+</html>
