@@ -5,23 +5,23 @@
             <div class="col-lg-10 col-lg-offset-1 text-center">
                 <h4><strong>Contact Me</strong>
                 </h4>
-                <p><?php echo get_post_meta($post->ID, 'footer-address', true); ?></p>
+                <p><?php echo get_post_meta(get_option('page_on_front'), 'footer-address', true); ?></p>
                 <ul class="list-unstyled">
-                    <li><i class="fa fa-phone fa-fw"></i> <?php echo get_post_meta($post->ID, 'footer-phone', true); ?></li>
-                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:<?php echo get_post_meta($post->ID, 'footer-email', true); ?>">
-                            <?php echo get_post_meta($post->ID, 'footer-email', true); ?></a>
+                    <li><i class="fa fa-phone fa-fw"></i> <?php echo get_post_meta(get_option('page_on_front'), 'footer-phone', true); ?></li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:<?php echo get_post_meta(get_option('page_on_front'), 'footer-email', true); ?>">
+                            <?php echo get_post_meta(get_option('page_on_front'), 'footer-email', true); ?></a>
                     </li>
                 </ul>
                 <br>
                 <ul class="list-inline">
                     <li>
-                        <a href="<?php echo get_post_meta($post->ID, 'footer-fb', true); ?>" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        <a href="<?php echo get_post_meta(get_option('page_on_front'), 'footer-fb', true); ?>" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
                     </li>
                     <li>
-                        <a href="<?php echo get_post_meta($post->ID, 'footer-linkedin', true); ?>" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        <a href="<?php echo get_post_meta(get_option('page_on_front'), 'footer-linkedin', true); ?>" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
                     </li>
                     <li>
-                        <a href="<?php echo get_post_meta($post->ID, 'footer-github', true); ?>" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        <a href="<?php echo get_post_meta(get_option('page_on_front'), 'footer-github', true); ?>" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
                     </li>
                 </ul>
                 <hr class="small">

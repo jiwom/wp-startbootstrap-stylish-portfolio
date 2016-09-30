@@ -1,19 +1,51 @@
-/*
-Theme Name: StartBoostrap
-Theme URI: http://wordpress.org/themes/twentythirteen
-Author: Jiwom
-Author URI: http://wordpress.org/
-Description: Converted startbootstrap-stylish-portfolio to WP themes
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
-Text Domain: twentythirteen
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-*/
-
-body > :last-child, body > :nth-last-child(2) {
-    display:none;
+/*
+
+Theme Name: StartBoostrap
+
+Theme URI: http://wordpress.org/themes/twentythirteen
+
+Author: Jiwom
+
+Author URI: http://wordpress.org/
+
+Description: Converted startbootstrap-stylish-portfolio to WP themes
+
+Version: 1.0
+
+License: GNU General Public License v2 or later
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+
+Text Domain: twentythirteen
+
+
+
+This theme, like WordPress, is licensed under the GPL.
+
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
+
+body > :last-child, body > :nth-last-child(2) {
+
+    /*display:none;*/
+
+}
+.container {
+	margin-top: 10px;
+}
+
+/** Post Pages **/
+.page-post{
+	height: 100%;
+	background-color: red;
 }
